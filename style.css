@@ -1,0 +1,313 @@
+body {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+header {
+    border-bottom: solid 1px grey;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+#topbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    margin: 0;
+}
+
+.leftop {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    font-size: 1.4em;
+    gap: 10px;
+}
+
+.rightop {
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: grey;
+    font-size: 1.4em;
+    cursor: pointer;
+
+}
+
+.membership{
+    border-radius: 20px;
+    border-color: grey;
+    color: grey;
+    padding: 8px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.profile {
+    border-radius: 50%;
+    border: none;
+    color: white;
+    background-color: orangered;
+    padding: 15px;
+    cursor: pointer;
+}
+
+#container {
+    display: flex;
+}
+
+.subject {
+    width: 70%;
+    padding: 32px 64px;
+}
+
+.foryou {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 3em;
+}
+
+.following {
+    width: 20%;
+    color: grey;
+    cursor: pointer;
+}
+
+.recommended {
+    cursor: pointer;
+    border-bottom: solid 1px black;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding-bottom: 4em;
+}
+
+.profileArticle {
+    display: flex;
+    gap: 10px;
+    font-size: 1em;
+    align-items: center;
+}
+
+.article {
+    width: 60%;
+}
+
+.article span {
+    color: grey;
+}
+
+.article img {
+    width: 5%;
+    height: 5%;
+}
+
+.immagine {
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.immagine img{
+    width: 100%;
+}
+
+.bottomCard {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1em;
+    color: grey;
+    align-items: center;
+}
+
+.infoArticle ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    gap: 15px;
+    align-items: center;
+}
+
+.infoArticle button {
+    border-radius: 25px;
+    background-color: rgba(156, 158, 157, 0.254);
+    color: grey;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.infoArticle li {
+    padding-right: 6px;
+    cursor: pointer;
+}
+
+.firstli{
+    list-style-type: none;
+}
+
+.saving {
+    cursor: pointer;
+}
+
+#ellipsis {
+    color: black; 
+    padding-left: 1em;
+}
+
+.sidebar {
+    width: 30%;
+    padding: 1em;
+    border-left: solid 1px grey;
+}
+
+.twitter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 1em;
+    border-bottom: solid 1px grey;
+    gap: 10px;
+
+}
+
+.mediumTwitter {
+    font-size: 2em;
+}
+
+.connectionTwitter {
+    width: 50%;
+    margin: auto;
+    border-radius: 25px;
+    padding: 8px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.twitter span,.twitter p {
+    color: grey;
+}
+
+.twitter a {
+    margin-top: 2em; 
+    color: grey;
+}
+
+.topics h3 {
+    margin: 1em;
+}
+
+
+.topicsList button{
+    width: 30%;
+    border-radius: 25px;
+    background-color: rgba(156, 158, 157, 0.254);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.topicsList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    padding-bottom: 1em;
+    border-bottom: solid 1px grey;
+}
+
+.profileFollower {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 0.5em;
+}
+
+.profileFollower img{
+    border-radius: 50%;
+    width: 20%;
+}
+
+.profileFollower button {
+    border-radius: 20px;
+    border-color: grey;
+    color: grey;
+    padding: 8px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.person h4 {
+    margin-bottom: 0.3em;
+}
+
+.person span {
+    color: grey;
+}
+
+.tweet {
+    display: flex;
+    flex-direction: column;
+}
+
+.tweetProfile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.tweet h4{
+    margin: 0;
+    font: bold
+}
+
+.tweet p {
+    color: grey;
+}
+
+.saved h3 {
+    margin-bottom: 0;
+}
+.saved img {
+    border-radius: 50%;
+    width: 6%;
+}
+
+.saved span {
+    color: rgb(55, 128, 0);
+    display: block;
+    padding: 1em 0;
+    cursor: pointer;
+}
+
+.saved {
+    padding-top: 2em;
+}
+
+.footer ul {
+    display: flex;
+    margin-top: 3em;
+    padding: 0 1em;
+    list-style-type: none;
+    flex-wrap: wrap;
+    gap: 15px;
+    color: grey;
+}
+
+.footer li {
+    width: 20%;
+    cursor: pointer;
+}
